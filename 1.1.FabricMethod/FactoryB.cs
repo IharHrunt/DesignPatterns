@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1._1.FabricMethod
 {
-    public class CreatorB : Creator
+    public class FactoryB : Factory
     {
         public override Product FactoryMethod()
         {            

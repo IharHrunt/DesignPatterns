@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace _1._1.FabricMethod
 {
-    public abstract class Creator
+    public class FactoryA : Factory
     {
-        public abstract Product FactoryMethod();
+        public override Product FactoryMethod()
+        {   
+            return new ProductA();
+        }
     }
 }
