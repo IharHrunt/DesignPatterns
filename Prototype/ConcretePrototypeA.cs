@@ -14,8 +14,7 @@ namespace Prototype
 
         public override AbstractPrototype Clone()
         {
-            //return new ConcretePrototypeA(Id);
-            return this.MemberwiseClone() as AbstractPrototype;
+            return new ConcretePrototypeA(Id);
         }
     }
 }
