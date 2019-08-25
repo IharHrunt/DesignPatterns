@@ -10,14 +10,14 @@ namespace _1._1.FabricMethod
     {
         static void Main(string[] args)
         {
-            Factory creator;
+            Factory factory;
             Product product;
 
-            creator = new FactoryA();
-            product = creator.FactoryMethod();
+            factory = new FactoryA();
+            product = factory.FactoryMethod();
 
-            creator = new FactoryB();
-            product = creator.FactoryMethod();
+            factory = new FactoryB();
+            product = factory.FactoryMethod();
 
             Console.ReadKey();
         }

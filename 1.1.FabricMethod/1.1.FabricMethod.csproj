@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creator.cs" />
-    <Compile Include="CreatorA.cs" />
-    <Compile Include="CreatorB.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="FactoryA.cs" />
+    <Compile Include="FactoryB.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductA.cs" />
     <Compile Include="ProductB.cs" />
