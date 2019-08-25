@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{397196CB-58A0-495C-932D-39BB4F82ED6F}</ProjectGuid>
+    <ProjectGuid>{82702A2C-B9E4-4250-91AD-1B28F8F2A023}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_1._2.AbstractFactory</RootNamespace>
-    <AssemblyName>1.2.AbstractFactory</AssemblyName>
+    <RootNamespace>FactoryMethod</RootNamespace>
+    <AssemblyName>FactoryMethod</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,15 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory.cs" />
+    <Compile Include="ConcreteFactoryA.cs" />
+    <Compile Include="ConcreteFactoryB.cs" />
     <Compile Include="AbstractProduct.cs" />
-    <Compile Include="AbstractProductA.cs" />
-    <Compile Include="AbstractProductB.cs" />
-    <Compile Include="ConcreteFactory1.cs" />
-    <Compile Include="ConcreteFactory2.cs" />
-    <Compile Include="ConcreteProductA1.cs" />
-    <Compile Include="ConcreteProductA2.cs" />
-    <Compile Include="ConcreteProductB1.cs" />
-    <Compile Include="ConcreteProductB2.cs" />
+    <Compile Include="ConcreteProductA.cs" />
+    <Compile Include="ConcreteProductB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

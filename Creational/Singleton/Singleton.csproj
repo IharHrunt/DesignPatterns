@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82702A2C-B9E4-4250-91AD-1B28F8F2A023}</ProjectGuid>
+    <ProjectGuid>{A0B13594-A18D-4010-8639-74B12BBFBFBB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_1._1.FactoryMethod</RootNamespace>
-    <AssemblyName>_1._1.FactoryMethod</AssemblyName>
+    <RootNamespace>Singleton</RootNamespace>
+    <AssemblyName>Singleton</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="ConcreteFactoryA.cs" />
-    <Compile Include="ConcreteFactoryB.cs" />
-    <Compile Include="AbstractProduct.cs" />
-    <Compile Include="ConcreteProductA.cs" />
-    <Compile Include="ConcreteProductB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

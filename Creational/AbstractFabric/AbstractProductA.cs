@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1._1.FactoryMethod
+namespace AbstractFactory
 {
-    public abstract class AbstractProduct
+    public abstract class AbstractProductA: AbstractProduct
     {
     }
 }
