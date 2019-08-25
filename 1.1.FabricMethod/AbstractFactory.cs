@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1._1.FabricMethod
+namespace _1._1.FactoryMethod
 {
-    public abstract class Factory
+    public abstract class AbstractFactory
     {
-        public abstract Product FactoryMethod();
+        public abstract AbstractProduct FactoryMethod();
     }
 }

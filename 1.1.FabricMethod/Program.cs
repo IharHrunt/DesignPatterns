@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1._1.FabricMethod
+namespace _1._1.FactoryMethod
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Factory factory;
-            Product product;
+            AbstractFactory factory;
+            AbstractProduct product;
 
-            factory = new FactoryA();
+            factory = new ConcreteFactoryA();
             product = factory.FactoryMethod();
 
-            factory = new FactoryB();
+            factory = new ConcreteFactoryB();
             product = factory.FactoryMethod();
 
             Console.ReadKey();
