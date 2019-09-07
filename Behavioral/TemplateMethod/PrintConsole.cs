@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TemplateMethod
 {
-    public class PrintConsole : Template
+    public class PrintConsole : PrintTemplate
     {
         public override void PrintBody()
         {

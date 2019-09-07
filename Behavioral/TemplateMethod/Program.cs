@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TemplateMethod
 {
@@ -10,7 +6,7 @@ namespace TemplateMethod
     {
         static void Main(string[] args)
         {
-            Template console = new PrintConsole();
+            PrintTemplate console = new PrintConsole();
             console.Print();
 
             Console.ReadKey();
