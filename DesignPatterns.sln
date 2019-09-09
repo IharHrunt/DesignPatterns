@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29230.47
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Creational\FabricMethod\FactoryMethod.csproj", "{82702A2C-B9E4-4250-91AD-1B28F8F2A023}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{D95CEA20-986D-47E5-AAE8-25E5FAE1CD5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behavioral\TemplateMethod\TemplateMethod.csproj", "{C44B32AE-563D-4853-99C1-FA4AF123834A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{D8462710-0041-4296-9A76-A90BC26C5BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Structural\Decorator\Decorator.csproj", "{F04CA8B1-EEA1-4777-8CEE-5ACDF9BF0270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{C44B32AE-563D-4853-99C1-FA4AF123834A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C44B32AE-563D-4853-99C1-FA4AF123834A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C44B32AE-563D-4853-99C1-FA4AF123834A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04CA8B1-EEA1-4777-8CEE-5ACDF9BF0270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04CA8B1-EEA1-4777-8CEE-5ACDF9BF0270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04CA8B1-EEA1-4777-8CEE-5ACDF9BF0270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04CA8B1-EEA1-4777-8CEE-5ACDF9BF0270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{A0B13594-A18D-4010-8639-74B12BBFBFBB} = {2056F19B-5CA5-4AFC-9AC2-44EC8D092605}
 		{6E213CCB-CCB6-4C10-8D15-C2155EE16438} = {2056F19B-5CA5-4AFC-9AC2-44EC8D092605}
 		{C44B32AE-563D-4853-99C1-FA4AF123834A} = {D95CEA20-986D-47E5-AAE8-25E5FAE1CD5E}
+		{F04CA8B1-EEA1-4777-8CEE-5ACDF9BF0270} = {D8462710-0041-4296-9A76-A90BC26C5BDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A8ABC76-7B0B-4DFD-A722-3F54C1812EC1}
