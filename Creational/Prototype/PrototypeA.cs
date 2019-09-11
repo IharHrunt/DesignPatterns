@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Prototype
 {
-    public class ConcretePrototypeA : AbstractPrototype
+    public class PrototypeA : Prototype
     {
-        public ConcretePrototypeA(int id) 
+        public PrototypeA(int id) 
             : base(id)
         {}
 
-        public override AbstractPrototype Clone()
+        public override Prototype Clone()
         {
-            return new ConcretePrototypeA(Id);
+            return new PrototypeA(Id);
         }
     }
 }

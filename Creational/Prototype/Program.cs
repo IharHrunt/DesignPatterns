@@ -10,15 +10,15 @@ namespace Prototype
     {
         static void Main(string[] args)
         {
-            AbstractPrototype prototype;
-            AbstractPrototype clone;
+            Prototype prototype;
+            Prototype clone;
 
-            prototype = new ConcretePrototypeA(1);
+            prototype = new PrototypeA(1);
             Console.WriteLine(prototype.Id);
             clone = prototype.Clone();
             Console.WriteLine(clone.Id);            
             
-            prototype = new ConcretePrototypeB(2);
+            prototype = new PrototypeB(2);
             Console.WriteLine(prototype.Id);
             clone = prototype.Clone();
             Console.WriteLine(clone.Id);

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Prototype
 {
-    public abstract class AbstractPrototype
+    public abstract class Prototype
     {
         public int Id { get; private set; }
 
-        public AbstractPrototype(int id)
+        public Prototype(int id)
         {
             Id = id;
         }
 
-        public abstract AbstractPrototype Clone();
+        public abstract Prototype Clone();
     }
 }
