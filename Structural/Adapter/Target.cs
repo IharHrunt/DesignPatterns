@@ -8,7 +8,7 @@ namespace Adapter
     {
         public virtual void Request()
         {
-            Console.WriteLine("Request");
+            Console.WriteLine("Target Request");
         }        
     }
 }

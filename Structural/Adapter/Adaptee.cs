@@ -6,9 +6,9 @@ namespace Adapter
 {
     public class Adaptee
     {
-        public void CustomRequest()
+        public void AdapteeRequest()
         {
-            Console.WriteLine("Custom Request");
+            Console.WriteLine("Adaptee Request");
         }
     }
 }

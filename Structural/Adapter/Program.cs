@@ -6,9 +6,9 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            Client client = new Client();
-            Target adapter = new Adapter();
-            client.Request(adapter);
+            Client client = new Client();            
+            client.Request(new Target());            
+            client.Request(new Adapter());
 
             Console.ReadKey();
         }
