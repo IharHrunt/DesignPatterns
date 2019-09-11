@@ -8,13 +8,13 @@ namespace Prototype
 {
     public class PrototypeA : Prototype
     {
-        public PrototypeA(int id) 
-            : base(id)
+        public PrototypeA(int id, string name) 
+            : base(id, name)
         {}
 
         public override Prototype Clone()
         {
-            return new PrototypeA(Id);
+            return new PrototypeA(Id, Name);
         }
     }
 }

@@ -9,10 +9,12 @@ namespace Prototype
     public abstract class Prototype
     {
         public int Id { get; private set; }
+        public string Name { get; private set; }
 
-        public Prototype(int id)
+        public Prototype(int id, string name)
         {
             Id = id;
+            Name = name;
         }
 
         public abstract Prototype Clone();
